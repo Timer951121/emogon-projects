@@ -1,0 +1,31 @@
+
+/* .first {flex-direction: column;} */
+.first .top-part {position: absolute; top: -40px; width: 100%; transition: all 0.3s;}
+.first.first-input .top-part {top: 20px;}
+.first .top-part .tab-item {flex: 1;}
+.first .top-part .tab-item .label { width: 100px; text-align: center; padding-bottom: 6px; border-bottom: solid 3px #FFFFFF; transition: all 0.3s;}
+.first .top-part .tab-item.active .label {border-bottom-color: #D9271C;}
+
+.first .logo-part { flex: 1;}
+.first .logo-part .logo-image { width: 82px; margin-bottom: 19px; transition: all 0.3s;}
+.first .logo-part .logo-label { width: 140px; transition: all 0.3s; }
+
+.first.first-none .logo-part .logo-image { width: 121px; margin-bottom: 28px;}
+.first.first-none .logo-part .logo-label { width: 210px; }
+
+.first.first-input .logo-part {margin-top: 100px;}
+.first.first-confirm .logo-part {margin-top: 40px;}
+
+.first .code-part {height: 0; transition: all 0.3s; overflow: hidden;}
+.first.first-input .code-part {height: calc(100vh - 260px); margin-top: 30px; margin-bottom: 20px;}
+
+.first .label-wrapper {margin-bottom: 10px;}
+.first .label-wrapper .label { text-align: center;}
+
+.first .code-part .code-input { flex: 1; justify-content: center; width: calc(100vw - 70px);}
+.first .code-part .code-input input { width: calc(100% - 10px); padding-left: 10px; border: none; border-bottom: solid 2px #C5C5C5; padding-bottom: 3px; margin-bottom: 10px;  outline: none; }
+.first .code-part .submit-wrapper {flex: 1;}
+
+.first .confirm-part { height: 0; width: calc(100vw - 50px); overflow: hidden; transition: all 0.3s;}
+.first.first-confirm .confirm-part {height: calc(100vh - 280px); margin-bottom: 100px;}
+.first .confirm-part select {padding: 12px 15px; width: calc(100% - 40px); outline: none; border: 1px solid #C5C5C5; border-radius: 4px; margin-bottom: 40px; margin-top: 25px; color: #000000AA;}

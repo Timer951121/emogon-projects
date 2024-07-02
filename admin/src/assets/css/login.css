@@ -1,0 +1,16 @@
+
+.login-wrapper {width: 500px; height: 300px; border-radius: 5px; border: 1px solid; flex-direction: column;}
+.login-wrapper .content {margin: 20px 0px;}
+.login-wrapper .content .input-item {margin: 15px 0px;}
+.login-wrapper .content .input-item label {width: 150px;}
+.login-wrapper .content .input-item input {padding: 3px 10px; width: 280px;}
+
+@media (orientation: portrait) {
+	.mobile .login-wrapper {width: 90%;}
+	.mobile .login-wrapper .content .input-item label {width: 120px;}
+	.mobile .login-wrapper .content .input-item input {width: calc(100% - 180px);}
+}
+
+@media (orientation: landscape) {
+	.mobile .login-wrapper {height: 90%;}
+}

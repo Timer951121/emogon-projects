@@ -1,0 +1,38 @@
+
+.admin-page .admin-wrapper {padding: 20px; width: calc(100% - 40px); height: calc(100% - 40px); padding-top: 80px;}
+.admin-page .content {margin: 20px 0px; max-height: calc(100% - 100px); overflow-y: auto;}
+.admin-page .content .title-wrapper {margin-top: 10px; margin-bottom: 10px; display: flex; align-items: center; cursor: pointer;}
+.admin-page .content .title-wrapper * { cursor: pointer;}
+.admin-page .content .title-wrapper .chevron {width: 10px; padding: 5px; margin-right: 15px; transition: all 0.5s;}
+.admin-page .content .title-wrapper .chevron.open {transform: rotate(90deg);}
+.admin-page .content .title-wrapper .big-title {width: 225px; padding: 5px 0px 5px 10px; transition: all 0.3s;}
+.admin-page .content .title-wrapper:hover .big-title {background-color: #CCCCCC;}
+.admin-page .content .title-wrapper img.thumb {height: 50px; width: auto; margin-left: 20px;}
+
+.admin-page .content .table-wrapper {max-height: 0px; overflow-y: hidden; transition: all 0.5s;}
+.admin-page .content .table-wrapper.table-custom.open {max-height: 610px;}
+.admin-page .content .table-wrapper.table-premade.open {max-height: 1100px;}
+.admin-page .content .table-wrapper.table-proto.open {max-height: 900px;}
+.admin-page .content .table-wrapper.table-option.open {max-height: 4780px;}
+.admin-page .content .table-wrapper.table-cat.open {max-height: 640px;}
+.admin-page .content .table-wrapper.table-label.open {max-height: 2600px;}
+
+.admin-page table {border-collapse: collapse; border: 1px solid; width: 100%;}
+.admin-page table th {text-align: center; border: 1px solid; height: 50px;}
+.admin-page table td {border: 1px solid; padding: 0px 10px; text-align: center;}
+.admin-page table td.td-no {width: 100px; }
+/* .admin-page table td.td-price {text-align: right; } */
+/* .admin-page table td.td-img {display: flex; justify-content: center;} */
+.admin-page table td.td-img img {max-width: 230px; max-height: 200px; }
+.admin-page .table-custom table td.td-img img {max-width: 60px; margin-top: 10px;}
+.admin-page table td.td-img .color-img {width: 100%; height: 40px; border: 1px solid;}
+.admin-page table td.td-description {text-align: left;}
+.admin-page table td.td-edit {padding: 10px; width: 150px;}
+.admin-page table td.td-edit div {border-radius: 5px; border: 1px solid grey; padding: 5px 15px; cursor: pointer; transition: all 0.3s;}
+.admin-page table td.td-edit div:hover {background-color: #CCCCCC;}
+.admin-page table td .label-de {font-size: 14px; color: grey;}
+.admin-page .add-button {margin-top: 40px; width: 150px;}
+
+.admin-page .logout {position: absolute; top: 20px; right: 20px;}
+
+.mobile .admin-page .content .title-wrapper {font-size: 20px;}

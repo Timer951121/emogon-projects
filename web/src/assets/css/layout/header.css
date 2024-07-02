@@ -1,0 +1,16 @@
+
+.header {width: 100vw; height: 60px; border-bottom: solid 1px #7D7D7D;}
+
+.header .part {display: flex; align-items: center; justify-content: center; margin: 0px 20px;}
+
+.header .part-left img {width: 190px;}
+.header .part-left .power-board {font-weight: 900; font-size: 20px; margin-left: 20px; letter-spacing: 1px;}
+
+.header .part-center { flex: 1; }
+
+.header .part-right {position: relative;}
+.header .part-right .user-name {margin: 0px 10px; font-size: 16px;}
+.header .part-right .arrow-down { width: 0;  height: 0;  border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #D9271C; cursor: pointer; }
+.header .part-right .menu {position: absolute; z-index: 2; top: 30px; right: 0; width: 150px; height: 0; overflow: hidden; background-color: white; transition: all 0.3s; display: flex; align-items: center; justify-content: center; border: solid 1px white;}
+.header .part-right .menu.show {height: 40px; border-color: black;}
+.header .part-right .menu .menu-item {cursor: pointer;}

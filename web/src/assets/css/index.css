@@ -1,0 +1,21 @@
+@import "font.css";
+
+@import "main.css";
+@import "login.css";
+@import "./layout/header.css";
+@import "./layout/side.css";
+@import "./layout/title.css";
+
+@import "./content/main-content.css";
+@import "./content/main-category.css";
+@import "./content/main-calendar.css";
+@import "./content/detail-customer.css";
+@import "./content/profile-customer.css";
+@import "./content/detail-ticket.css";
+@import "./content/detail-news.css";
+@import "./content/ticket-process.css";
+@import "./content/create-ticket.css";
+@import "./content/service.css";
+
+@import "loading.css";
+@import "modal.css";

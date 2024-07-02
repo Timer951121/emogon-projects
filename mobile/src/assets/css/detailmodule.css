@@ -1,0 +1,20 @@
+
+.detail-module {border-top: solid 2px #C5C5C5;}
+.detail-module .top-part {height: 60px; width: 100vw; display: flex; align-items: center;}
+
+.detail-module .top-part img {margin: 0px 30px; height: 40px; opacity: 0.5;}
+
+/* .detail-module .detail-module-content {display: none;}
+.detail-module .detail-module-content.active {display: block;} */
+
+.detail-module .tab-wrapper {width: 100vw; height: 60px;}
+.detail-module .tab-wrapper .tab-item {flex:1; height: 100%; color: white; background-color: #D9271C; opacity: 0.5; transition: all 0.3s;}
+.detail-module .tab-wrapper .tab-item.active {opacity: 1;}
+
+.detail-module .tab-content {max-height: calc(100vh - 200px); margin-top: 5px;}
+.detail-module .tab-content .check-row {display: flex; width: calc(100vw - 50px); margin: 7px 20px;}
+.detail-module .tab-content .check-row .check-box { width: 31px; height: 31px; border-radius: 7px; border: solid 2px #4D4D4D88;}
+.detail-module .tab-content .check-row .check-box.error {border-color: #D9271C;}
+.detail-module .tab-content .check-row .check-box.check {border-color: #00BB07;}
+.detail-module .tab-content .check-row .check-box img {width: 20px;}
+.detail-module .tab-content .check-row .check-label {margin-left: 20px; margin-top: 5px; flex: 1;}

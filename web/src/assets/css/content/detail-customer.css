@@ -1,0 +1,123 @@
+
+.detail-content {position: absolute; width: calc(100% - 60px); height: calc(100% - 40px); top: 0; left: 0; padding: 20px 30px; z-index: -1; background-color: white;}
+.detail-content.active {z-index: 1;}
+.detail-content .title-wrapper.remove-margin {margin: 0;}
+
+.content-detailCustomer .avatar-area {display: flex; width: 100%; position: relative;}
+.content-detailCustomer .avatar-area .image-part {width: 120px; height: 120px; margin-right: 20px;}
+.content-detailCustomer .avatar-area .image-part img {width: 100%; height: 100%;}
+
+.content-detailCustomer .avatar-area .info-part {flex: 1; display: flex; flex-direction: column;}
+.content-detailCustomer .avatar-area .info-part .top-part{display: flex;}
+.content-detailCustomer .avatar-area .label-part {width: calc(50vw - 300px); display: flex;}
+.content-detailCustomer .avatar-area .label-part .title {margin-right: 10px;}
+
+.content-detailCustomer .avatar-area .button-part {flex: 1; display: flex; margin-left: 20px; padding-left: 20px; border-left: 1px solid #D9D9D9;}
+.content-detailCustomer .avatar-area .button-part .label-wrapper {flex: 1;}
+.content-detailCustomer .avatar-area .button-part .button-wrapper .button {margin-bottom: 15px;}
+
+.content-detailCustomer .avatar-area .info-part .bottom-part .attach-item {margin: 12px 0px; display: flex; align-items: center;}
+.content-detailCustomer .avatar-area .info-part .bottom-part .attach-item label {margin-right: 10px;}
+.content-detailCustomer .avatar-area .info-part .bottom-part .attach-item select {width: 320px;}
+.content-detailCustomer .avatar-area .info-part .bottom-part .attach-item select option {padding: 10px 0px;}
+
+.content-detailCustomer .avatar-area .info-part .bottom-part .attach-item .project-status {margin-left: 50px;}
+
+.content-detailCustomer .avatar-area .info-part .timeline-wrapper {border: 1px solid; width: 350px; height: 200px; margin-top: -110px; margin-bottom: -80px; position: relative;}
+.content-detailCustomer .avatar-area .info-part .timeline-inner {width: 340px; height: 490px;}
+.content-detailCustomer .avatar-area .info-part .timeline-inner img {width: 100%;}
+.content-detailCustomer .avatar-area .info-part .timeline-inner .time-point {position: absolute; width: 16px; height: 16px; border-radius: 50%; background-color: #D9271C; animation: zoomAnimation 2s linear infinite;}
+
+@keyframes zoomAnimation {
+	5% { transform: scale(1); opacity: 1; }
+	45% { transform: scale(1.2); opacity: 0.6; }
+	55% { transform: scale(1.2); opacity: 0.6; }
+	95% { transform: rotate(1); opacity: 1;}
+}
+
+.content-detailCustomer .avatar-area .info-part .bottom-part .project-item {display: flex; height: 57px;}
+.content-detailCustomer .avatar-area .info-part .bottom-part .project-item .project-column {display: flex;}
+.content-detailCustomer .avatar-area .info-part .bottom-part .project-item .project-column:first-child {margin-right: 30px;}
+.content-detailCustomer .avatar-area .info-part .bottom-part .project-item .project-column .project-label {margin-right: 10px;}
+/* .content-detailCustomer .avatar-area .edit-button {position: absolute; top: 0; right: 0;} */
+
+.content-detailCustomer .tab-area {display: flex; margin: 10px 0px; width: 100%; padding: 7px 0px; border-top: 1px solid #D9D9D9; border-bottom: 2px solid #D9D9D9;}
+.content-detailCustomer .tab-area .button {margin-right: 12px; height: 43px;}
+
+.content-detailCustomer .detail-area {display: flex; height: calc(100vh - 450px);}
+.content-detailCustomer .detail-area .left-buttons {height: 100%; width: 202px; position: relative;}
+.content-detailCustomer .detail-area .left-buttons .button {margin-bottom: 5px;}
+.content-detailCustomer .detail-area .left-buttons .button.hide {display: none !important;}
+/* .content-detailCustomer .detail-area .left-buttons .space {height: calc(100% - 295px);} */
+.content-detailCustomer .detail-area .left-buttons .button:last-child {position: absolute; bottom: 0; left: 0;}
+
+.content-detailCustomer .detail-area .right-table {margin-left: 10px; flex: 1; height: 100%;}
+.content-detailCustomer .detail-area .right-table .table-wrapper {display: flex;}
+.content-detailCustomer .detail-area .right-table .side-part {flex: 1; height: 100%;}
+.content-detailCustomer .detail-area .right-table .side-part:first-child {border-right: solid 1px #D9D9D9;}
+.content-detailCustomer .detail-area .right-table .side-part .side-header {height: 40px; display: flex; align-items: center; padding-left: 24px; padding-right: 12px; border-bottom: solid 2px #D9D9D9;}
+.content-detailCustomer .detail-area .right-table .side-part .side-content {height: calc(100% - 42px); max-height: calc(100% - 42px);}
+.content-detailCustomer .detail-area .right-table .side-part .check-item { padding-left: 24px; padding-right: 12px; margin-top: 5px; margin-bottom: 2px; display: block;}
+.content-detailCustomer .detail-area .right-table .side-part .check-item .check-item-row { width: 100%; display: flex;}
+.content-detailCustomer .detail-area .right-table .side-part .check-item .check-item-row .label {flex: 1;}
+.content-detailCustomer .detail-area .right-table .side-part .check-item .check-item-row .icon {cursor: pointer;}
+
+.content-detailCustomer .detail-area .invoice-content-wrapper {width: 100%;}
+.invoice-content-wrapper .table-wrapper {height: calc(100% - 80px);}
+.invoice-content-wrapper .table-wrapper .check-item .check-box img {width: 24px;}
+.invoice-content-wrapper .table-wrapper .invoice-paid {display: flex; justify-content: center;}
+.invoice-content-wrapper .table-wrapper .invoice-status {display: flex; justify-content: center;}
+.invoice-content-wrapper .table-wrapper .invoice-delete {display: flex; justify-content: center;}
+.invoice-content-wrapper .table-wrapper .invoice-name {color: #D9271C; text-decoration: underline; cursor: pointer;}
+/* .invoice-content-wrapper .table-wrapper .table-content {max-height: calc(100vh - 650px);} */
+
+.check-time-row {display: flex; align-items: center; width: 290px !important; margin-left: 50px; border: 1px solid #AAAAAA; border-radius: 4px; transition: all 0.3s;  margin-top: 4px; margin-bottom: 4px; height: 37px;}
+.check-time-row .worker-label {padding-left: 10px; cursor: pointer;}
+.check-time-row .worker-label.hold {color: #AAAAAA;}
+.check-time-row .react-datepicker-wrapper {width: 200px;}
+.check-time-row .react-datepicker-wrapper input {border: none; width: calc(100% - 30px); padding-left: 20px;}
+.check-time-row select {border: none; padding: 8px 14px;}
+.check-time-row .icon {margin-right: 5px;}
+.check-time-row>div {background-color: #FFFFFF00; border: none; outline: none;}
+/* .check-time-row>div:hover {background-color: #FFFFFF00;} */
+.check-time-row>div:first-child>div>div>div:nth-child(2) {display: none;}
+
+.check-time-row>div:first-child {flex: 1;}
+.check-time-row>div:first-child>div>div {background-color: #FFFFFF00; border-color: #FFFFFF00;}
+.check-time-row>div:first-child>div>div:hover {background-color: #EEEEEE;}
+.check-time-row>div:first-child>div>div>div>div {text-align: center;}
+
+.select-hour {flex: 1;}
+.select-min {flex: 1;}
+
+.select-hour>div>div:nth-child(2) {display: none;}
+.select-min>div>div:nth-child(2) {display: none;}
+
+.select-hour>div>div>div {text-align: center;}
+.select-min>div>div>div {text-align: center;}
+
+.check-time-row input {height: 24px;}
+
+.content-detailCustomer .button-footer {display: flex; justify-content: flex-end; margin-top: 10px;}
+
+#leftButtonsCustomerTicket{width: 0px;}
+#tableCustomerTicketWrapper {display: block;}
+
+/* .content-detailCustomer .detail-area .right-table .table-header {border-bottom: solid 2px #D9D9D9;}
+.content-detailCustomer .detail-area .right-table .table-content {display: flex; padding-right: 7px; max-height: calc(100% - 42px);}
+.content-detailCustomer .detail-area .right-table .side-part:first-child {border-right: solid 1px #D9D9D9;}
+
+.content-detailCustomer .detail-area .right-table .table-content .check-item .label {flex: 1;} */
+
+@media screen and (max-width: 1200px) {
+	.detail-content { padding: 15px 20px; width: calc(100% - 40px); height: calc(100% - 30px); }
+	.content-detailCustomer .avatar-area .button-part .button-wrapper .button {margin-bottom: 8px;}
+	.content-detailCustomer .detail-area .left-buttons {width: auto;}
+	.check-time-row {margin-left: 30px; width: 250px !important;}
+	.check-time-row .react-datepicker-wrapper input {padding-left: 10px; padding-right: 0px;}
+	.check-time-row select {padding: 8px 4px; width: 50px;}
+}
+
+.customer.content-detailCustomer .avatar-area .button-part {display: none;}
+.customer .check-item .check-box {border-color: #FFFFFF; cursor: default;}
+.customer .button.hide-customer {display: none !important;}

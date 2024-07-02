@@ -1,0 +1,85 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/font/Proxima Nova Alt Bold.otf",
+      "sha1": "44b0df572e9cf9389cd6d41a44e1d3425ac3cd20"
+    },
+    {
+      "path": "src/assets/font/Proxima Nova Alt Light.otf",
+      "sha1": "813f4df23bb5c7a45f886bac87744086c72baf2c"
+    },
+    {
+      "path": "src/assets/font/Proxima Nova Alt Thin.otf",
+      "sha1": "c8a0805e0903ce1a10b532d6d711d59b961ae673"
+    },
+    {
+      "path": "src/assets/font/Proxima Nova Black.otf",
+      "sha1": "94159dcb3cba9e8702b22caa2ff9bc74c03b4c70"
+    },
+    {
+      "path": "src/assets/font/Proxima Nova Bold.otf",
+      "sha1": "411bff1d3b8f0144f1685c94a21156a53848d5a6"
+    },
+    {
+      "path": "src/assets/font/Proxima Nova Extrabold.otf",
+      "sha1": "01ed725f5618902e19911eccac005c7069bc8017"
+    },
+    {
+      "path": "src/assets/font/Proxima Nova Thin.otf",
+      "sha1": "d1255358e8dd8b7bcc9980ad80cde9e6a707d3db"
+    },
+    {
+      "path": "src/assets/font/Proxima-Nova-Font.otf",
+      "sha1": "e41a5e523f03be8b9b9002422a52e4e8741ca462"
+    },
+    {
+      "path": "src/assets/font/ProximaNova-Regular.otf",
+      "sha1": "28d04eb938c05b5158a69a709682d4f0517a59ab"
+    },
+    {
+      "path": "src/assets/font/SF Pro Rounded.ttf",
+      "sha1": "f2060ab5a5d6140c103bf47616f882ae62539cf2"
+    },
+    {
+      "path": "src/assets/font/sf-pro-display-cufonfonts.zip",
+      "sha1": "b5bdeba7624418ea73a5a05a8ef085c5858e2eb3"
+    },
+    {
+      "path": "src/assets/font/SFPRODISPLAYBLACKITALIC.OTF",
+      "sha1": "0de83203799afa70ae34ef9e2a223144147e8ad8"
+    },
+    {
+      "path": "src/assets/font/SFPRODISPLAYBOLD.OTF",
+      "sha1": "100e7b7fd24facbca4db38e6d4d7e01c73b82818"
+    },
+    {
+      "path": "src/assets/font/SFPRODISPLAYHEAVYITALIC.OTF",
+      "sha1": "094c4f5f6f14d5964efe8ece373ac918674bd498"
+    },
+    {
+      "path": "src/assets/font/SFPRODISPLAYLIGHTITALIC.OTF",
+      "sha1": "1bf212b6006b021ceb13f6bdcf37d2be05960678"
+    },
+    {
+      "path": "src/assets/font/SFPRODISPLAYMEDIUM.OTF",
+      "sha1": "a5f5e08dd38cac2f857fb7510f7e92a2399b6f5c"
+    },
+    {
+      "path": "src/assets/font/SFPRODISPLAYREGULAR.OTF",
+      "sha1": "e19df199e78d296e5b6491d4832a76756532ed43"
+    },
+    {
+      "path": "src/assets/font/SFPRODISPLAYSEMIBOLDITALIC.OTF",
+      "sha1": "014f13cdf8b948617605822648fe3f9cc6c648e4"
+    },
+    {
+      "path": "src/assets/font/SFPRODISPLAYTHINITALIC.OTF",
+      "sha1": "a54767f9c4b220caf9d0ca246bb29e484ad98dce"
+    },
+    {
+      "path": "src/assets/font/SFPRODISPLAYULTRALIGHTITALIC.OTF",
+      "sha1": "e3e3f7af872a6a0fa2d00d5099a7bf0bd4a46473"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+
+.content-category .filter-wrapper {margin-bottom: 40px;}
+.content-category .cat-item {display: flex; align-items: center; margin: 20px 0px;}
+.content-category .cat-item .line {height: 2px; background-color: #7D7D7D; width: 30px;}
+.content-category .cat-item .icon {margin: 0px 10px;}

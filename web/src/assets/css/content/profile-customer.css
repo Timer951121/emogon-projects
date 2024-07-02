@@ -1,0 +1,78 @@
+
+.content-profile {margin-top: 40px;}
+
+.content-profile .side-part {flex: 1;}
+.content-profile .side-part .bottom-row {height: 40px;}
+
+.content-profile .side-left .avatar {width: 140px; margin-bottom: 10px; margin-left: 100px; border-radius: 50%;}
+
+.content-profile .input-item {display: flex; align-items: center; margin: 4px 0px;}
+.content-profile .input-item .label {width: 120px;}
+.content-profile .input-item input {width: 200px; height: 40px; border-color: #C5C5C5;}
+.content-profile .type-read input {border-color: white;}
+/* .content-profile .type-read select {border-color: white;} */
+
+.content-profile .side-left .input-item:first-child {margin-bottom: 20px;}
+.content-profile .side-left .input-item:last-child {margin-bottom: 20px;}
+.content-profile .side-left .input-item .button-grey {width: 180px; height: 40px;}
+
+.content-profile .side-right .top-part select {width: 320px; margin-left: 10px;}
+.content-profile .side-right .top-part input {width: 280px; margin-left: 10px;}
+.content-profile .side-right .title {width: 360px; font-size: 20px;}
+.content-profile .side-right .input-wrapper {margin: 0px 0px;}
+.content-profile .side-right .button-wrapper {margin-bottom: 20px; margin-top: 80px;}
+.content-profile .side-right .button-wrapper .button {width: 180px; margin: 4px 0px; margin-left: 120px;}
+
+.content-profile .bottom-row .button {margin: 0px 10px;}
+
+.content-profileCustomer .side-left {border-right: solid 2px #D9D9D9;}
+/* .content-profileCustomer .side-left .input-item:nth-child(7) {margin-bottom: 30px;} */
+/* .content-profileCustomer .side-right .top-part {display: flex; flex-direction: column; align-items: center; height: 130px;}
+.content-profileCustomer .side-right .top-part .create-button {position: absolute; right: 0; bottom: 10;} */
+.content-profileCustomer .side-right .top-part {margin: 10px; height: 100px;}
+.content-profileCustomer .side-right .top-part .select-part {display: flex; align-items: center;}
+.content-profileCustomer .side-right .top-part .create-button {margin-top: 10px; width: 160px; float: right;}
+.content-profileCustomer .side-right .bottom-row .edit-button {margin-left: 110px;}
+
+.content-profileMember {margin-top: 20px;}
+.content-profileMember .side-left .input-item:nth-child(5) {margin-bottom: 20px;}
+.content-profileMember .side-left select {width: 230px; padding: 8px 12px;}
+.content-profileMember .role-row {margin-top: 20px;}
+.content-profileMember .role-row .value .icon {padding: 0px 12px; cursor: pointer;}
+.content-profileMember .side-right {margin-top: 70px;}
+.content-profileMember .member-id {margin-top: 70px;}
+.content-profileMember .member-id .value {padding-left: 12px; color: #7D7D7D;}
+
+.content-profile .delete-button {position: absolute; top: -75px; right: 0px;}
+.content-profile .delete-button.delete-button-customer {right: calc(50% + 20px);}
+
+.content-profileWorker .select-part {margin-bottom: 35px;}
+.content-profileWorker .select-part select {width: 230px;}
+.content-profileWorker .side-left {border-right: solid 1px #00000033;}
+.content-profileWorker .side-left .input-wrapper {margin-bottom: 20px;}
+.content-profileWorker .side-left .input-wrapper .input-item:nth-child(4) {margin-bottom: 30px;}
+.content-profileWorker .side-left .input-wrapper .input-item:nth-child(6) {margin-bottom: 30px;}
+.content-profileWorker .side-right .top-part {height: 70px;}
+.content-profileWorker .side-right .title {margin-bottom: 30px; position: relative;}
+.content-profileWorker .side-right .create-button {position: absolute; top: -5px; right: 0;}
+.content-profileWorker .side-right .input-wrapper {margin-bottom: 30px;}
+
+@media screen and (max-width: 1200px) {
+    .content-profile .side-left .avatar {width: 100px;}
+    .content-profile .input-item input {height: 30px; font-size: 15px; width: 178px;}
+    .content-profile .side-left .input-item .button-grey {height: 30px;}
+    .content-profile .side-left .input-item:first-child {margin-bottom: 10px;}
+    .content-profile .side-left .input-item:last-child {margin-bottom: 10px;}
+    .content-profile .delete-button {top: -80px;}
+    .content-profile .delete-button.delete-button-customer { right: calc(50% + 30px);}
+
+    .content-profileCustomer .side-right .top-part {height: 85px;}
+    .content-profile .side-right .top-part select {padding: 8px 12px;}
+    .content-profile .side-right .button-wrapper {margin-top: 0px;}
+    .content-profile .side-right .button-wrapper .button {height: 40px;}
+
+    .content-profileMember {margin-top: 15px;}
+
+    .content-profileWorker .select-part select {width: 210px;}
+    .content-profileWorker .side-right .title {width: 330px;}
+}

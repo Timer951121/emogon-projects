@@ -1,0 +1,21 @@
+
+/* .first {flex-direction: column;} */
+
+.login {background-color: white !important;}
+.login .logo-image { height: 65px; margin-bottom: 30px;}
+.login .logo-label { letter-spacing: 9px; font-weight: 900; font-size: 22px; margin-bottom: 90px;}
+.login .login-type {margin-bottom: 30px;}
+.login .login-label {margin: 0px 10px; font-size: 20px; padding: 10px 20px; background-color: white; border-radius: 5px; border: 1px solid; cursor: pointer;}
+.login .login-label:hover {background-color: #DDDDDD;}
+.login .login-label.active { cursor: default;} /* background-color: #AAAAAA; */
+.login input {width: 270px; margin: 5px 0px; font-size: 20px;}
+.login .email-row {width: 100px; height: 60px;}
+
+.password-eye { margin-top: -39px; margin-left: 240px; height: 25px; margin-bottom: 15px; cursor: pointer;}
+
+.login .remember-row {width: 300px;}
+.login .remember-row input {width: 20px;}
+.login .remember-row label {flex: 1; font-size: 20px; margin-left: 10px;}
+.login .remember-row .button {height: 46px;}
+
+.login .forgot {margin-top: 50px; text-decoration: underline;}

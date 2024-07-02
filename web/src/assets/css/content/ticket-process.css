@@ -1,0 +1,63 @@
+
+.content-ticketProcess .main-top {padding-bottom: 20px; border-bottom: solid 1px #D9D9D9;}
+.content-ticketProcess .title {margin-bottom: 20px; font-size: 18px; font-weight: 700;}
+.content-ticketProcess .select-wrapper {display: flex; margin-top: 10px;}
+.content-ticketProcess .select-wrapper .select-label {margin-top: 8px; width: 120px;}
+.content-ticketProcess .select-wrapper select {width: 150px; padding: 10px 14px;}
+
+.content-ticketProcess .select-wrapper .select-inner .check-wrapper {display: flex; align-items: center;}
+.content-ticketProcess .select-wrapper .select-inner .check-wrapper {margin: 10px 0px;}
+.content-ticketProcess .select-wrapper .select-inner .check-wrapper .check-box {width: 18px; height: 18px; border-radius: 4px; border: solid 1px #C5C5C5; margin-right: 10px ;}
+.content-ticketProcess .select-wrapper .select-inner .check-wrapper .check-box img {width: 11px; height: 11px;}
+.content-ticketProcess .select-wrapper .select-inner .check-wrapper .check-label {margin: 0px 10px;}
+
+.content-ticketProcess .select-wrapper .calendar {position: relative;}
+.content-ticketProcess .select-wrapper .calendar .react-date-picker__wrapper {border-radius: 4px; border-color: #C5C5C5;}
+.content-ticketProcess .select-wrapper .calendar .react-date-picker__inputGroup {padding: 10px; width: 11px;}
+.content-ticketProcess .select-wrapper .calendar .react-date-picker__inputGroup * {cursor: pointer;}
+.content-ticketProcess .select-wrapper .calendar .react-date-picker__clear-button {display: none;}
+.content-ticketProcess .select-wrapper .calendar .react-date-picker__calendar-button {opacity: 0;}
+.content-ticketProcess .select-wrapper .calendar .vir-icon {position: absolute; top: 11px; right: 10px; width: 20px; height: 20px; z-index: -1;}
+
+.content-ticketProcess .select-wrapper .calendar .react-date-picker__calendar {padding: 10px; border-radius: 4px; border: solid 1px #C5C5C5;} /* react-date-picker__calendar--open */
+.content-ticketProcess .select-wrapper .calendar .react-calendar__month-view__days__day {border-color: #BBB;}
+.content-ticketProcess .select-wrapper .calendar .react-calendar__month-view__days__day:hover {background-color: #BBB;} 
+
+.content-ticketProcess .main-top .button {margin-left: 400px; width: 80px;}
+
+.content-ticketProcess .main-bottom {margin-top: 10px;}
+.content-ticketProcess .main-bottom .bar-area {display: flex;}
+.content-ticketProcess .main-bottom .bar-item {width: 440px;}
+.content-ticketProcess .main-bottom .bar-item .bar-label {margin: 20px 0px;}
+.content-ticketProcess .main-bottom .bar-item .bar-outer {position: relative; background-color: #D9271C; height: 34px; width: 360px; margin: 15px 0px;}
+.content-ticketProcess .main-bottom .bar-item .bar-inner {position: absolute; background-color: #FFFFFF80; height: 100%; top: 0; left: 0;}
+.content-ticketProcess .main-bottom .bar-item .bar-value .value-item {display: flex; align-items: center; margin: 5px 0px;}
+.content-ticketProcess .main-bottom .bar-item .bar-value .value-item .value-icon {width: 10px; height: 10px; background-color: #D9271C; margin-right: 12px;}
+.content-ticketProcess .main-bottom .bar-item .bar-value .value-item .value-icon.icon-close {background-color: #D9271C80;}
+.content-ticketProcess .main-bottom .bar-item .bar-value .value-item .value-label {width: 100px;}
+
+.content-ticketProcess .main-bottom .time-title {margin: 10px 0px;}
+.content-ticketProcess .main-bottom .time-width {width: 680px; }
+.content-ticketProcess .main-bottom .time-canvas {height: 120px; border: solid 1px #D9D9D9; border-top: none;}
+.content-ticketProcess .main-bottom .time-item {flex: 1; margin: 0px 15px; height: 100%; display: flex; flex-direction: column;}
+.content-ticketProcess .main-bottom .time-item .time-space {width: 100%; flex: 1;}
+.content-ticketProcess .main-bottom .time-item .time-label {width: 100%; margin-bottom: 5px; text-align: center;}
+.content-ticketProcess .main-bottom .time-item .time-color {width: 100%; background-color: #F4ABA7;}
+
+.content-ticketProcess .main-bottom .time-labels {margin-top: 10px;}
+
+.content-ticketProcess .main-bottom .time-footer {margin-top: 10px; display: flex; align-items: center;}
+.content-ticketProcess .main-bottom .time-footer img {width: 15px; height: 15px; margin-right: 20px;}
+
+
+@media screen and (max-width: 1200px) {
+	.content-ticketProcess .title {margin-bottom: 10px; font-size: 17px;}
+	.content-ticketProcess .select-wrapper .calendar .react-date-picker__inputGroup {padding: 7px 10px;}
+	.content-ticketProcess .select-wrapper .calendar .vir-icon {top: 9px;}
+	.content-ticketProcess .select-wrapper .select-inner .check-wrapper {margin: 6px 0px;}
+
+	.content-ticketProcess .main-bottom .bar-item .bar-label {margin: 10px 0px;}
+	.content-ticketProcess .main-bottom .time-title {margin: 7px 0px;}
+}
+
+

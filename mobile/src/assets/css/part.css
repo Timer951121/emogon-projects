@@ -1,0 +1,23 @@
+
+.empty {flex: 1;}
+
+.part-support .main-icon {width: 60px; opacity: 0.5; margin: 20px 0px;}
+.part-support .list-wrapper {flex: 1;}
+.part-support .list-wrapper .list-item {flex: 1;}
+.part-support .bottom {margin: 30px;}
+.part-support .bottom .label {text-align: center;}
+
+.middle-board {background-color: white; height: calc(100vh - 310px); width: 100vw;}
+.middle-board .red-bar {margin-top: 20px; height: 45px; width: 100vw; background-color: #D9271C;}
+.middle-board .red-bar img {width: 22px; margin-right: 15px;}
+.middle-board .red-bar label {color: white;}
+
+.middle-board .middle-info {max-height: calc(100% - 65px);}
+
+.middle-board .chart-info .main-item {width: calc(100vw - 10px); margin: 30px 0px;}
+.middle-board .chart-info .main-item .title {margin-left: 30px; font-weight: 700;}
+.middle-board .chart-info .main-item .detail-row {margin-top: 10px;}
+.middle-board .chart-info .main-item .detail-row .detail-item {flex: 1;}
+.middle-board .chart-info .main-item .detail-row .detail-item .value {color: #D9271C; font-weight: 900; margin-bottom: 5px;}
+
+.middle-board .chart-info .bottom {color: #D9271C; margin-bottom: 20px; font-weight: 700; text-align: center;}

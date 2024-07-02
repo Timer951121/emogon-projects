@@ -1,0 +1,13 @@
+
+.content-detailNews .main-content .news-image {width: 500px;}
+.content-detailNews .main-content .button-image {margin: 20px 0px;}
+.content-detailNews .main-content .input-wrapper {margin-left: -100px;}
+.content-detailNews .main-content .input-item {margin: 20px 0px; display: flex;}
+.content-detailNews .main-content .input-item .label {width: 100px; margin-top: 13px;}
+.content-detailNews .main-content .input-item input {width: 600px;}
+/* .content-detailNews .main-content .input-item textarea {width: 510px; outline: none; padding: 10px; resize: none;} */
+
+.content-detailNews .main-content.read .input-item .inputBox {border-color: white;}
+
+.content-detailNews .main-content .bottom-row .button {margin: 10px;}
+.content-detailNews .delete-button {position: absolute; top: -55px; right: 0px;}

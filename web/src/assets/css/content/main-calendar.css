@@ -1,0 +1,48 @@
+
+.content-calendar .calendar-wrapper {display: flex;}
+.content-calendar .calendar-wrapper .calendar-inner {width: 520px; border: solid 1px #D9D9D9; margin-bottom: 20px;}
+.content-calendar .calendar-wrapper .calendar-inner .Calendar__sectionWrapper {min-height: 374px;}
+
+.content-calendar .calendar-wrapper .calendar-inner .Calendar__header {padding: 15px 20px 15px 20px;}
+.content-calendar .calendar-wrapper .calendar-inner .Calendar__monthYear button {font-size: 20px;}
+
+.content-calendar .calendar-wrapper .calendar-inner .Calendar__weekDays {padding: 0; padding-top: 15px; border-top: solid 1px; margin: 0px 50px;}
+.content-calendar .calendar-wrapper .calendar-inner .Calendar__weekRow {border-bottom: solid 1px #D9D9D9;}
+.content-calendar .calendar-wrapper .calendar-inner .Calendar__weekRow:first-child {border-top: solid 1px #D9D9D9;}
+.content-calendar .calendar-wrapper .calendar-inner .Calendar__day {width: 50px; margin: 5px; height: 50px; min-height: 50px; font-size: 18px;} /* border-right: solid 1px #E9E9E9; */
+/* .content-calendar .calendar-wrapper .calendar-inner .Calendar__day:first-child {border-left: solid 1px #E9E9E9;} */
+/* .content-calendar .calendar-wrapper .calendar-inner .calendar-today {border-radius: 50%; background-color: #D9271C; color: white !important;} */
+.content-calendar .calendar-wrapper .calendar-inner .calendar-today::after {background-color: #D9271C !important;}
+
+.content-calendar .calendar-wrapper .calendar-inner .Calendar__monthArrowWrapper {width: 35px; height: 35px; display: flex; justify-content: center; align-items: center;}
+.content-calendar .calendar-wrapper .calendar-inner .Calendar__monthArrow {width: 15px; height: 15px;}
+
+.content-calendar .calendar-wrapper .time-wrapper { margin-left: 30px; flex: 1;}
+.content-calendar .calendar-wrapper .time-wrapper .time-list {margin-top: 20px; max-height: 450px; max-width: 600px;}
+.content-calendar .calendar-wrapper .time-wrapper .time-list .time-item {margin: 10px 0px; border-radius: 12px; border: solid 1px #D9D9D9;}
+.content-calendar .calendar-wrapper .time-wrapper .time-list .time-item .time-label {width: 90px; height: 46px; margin: 20px; border-radius: 9px; border: solid 1px #D9D9D9;}
+.content-calendar .calendar-wrapper .time-wrapper .time-list .time-item .time-value {flex: 1; border-right: solid 1px #D9D9D9;}
+.content-calendar .calendar-wrapper .time-wrapper .time-list .time-item .time-value .sub-item {display: flex; margin: 5px;}
+.content-calendar .calendar-wrapper .time-wrapper .time-list .time-item .time-value .sub-item .sub-label {width: 100px; color: #888888;}
+.content-calendar .calendar-wrapper .time-wrapper .time-list .time-item .time-value .sub-item .sub-value {flex:1}
+
+.content-calendar .calendar-wrapper .time-wrapper .time-list .time-item .icon-wrapper {width: 90px;}
+
+.appoint:not(.-selectedStart):not(.-selectedBetween):not(.-selectedEnd):not(.-selected) {
+	border: 2px solid rgba(255, 0, 0, 0.7) !important;
+}
+.content-calendar .no-appoint { font-size: 20; font-weight: 700; }
+
+@media screen and (max-width: 1200px) {
+	.content-calendar .calendar-wrapper .calendar-inner {min-height: 350px; height: 350px;}
+	.content-calendar .calendar-wrapper .calendar-inner .Calendar__header { padding: 10px 15px 10px 15px; height: 40px;}
+	.content-calendar .calendar-wrapper .calendar-inner .Calendar__day {width: 30px; height: 30px; min-height: 30px;}
+	.content-calendar .calendar-wrapper .calendar-inner .Calendar__sectionWrapper {min-height: 240px;}
+
+	.content-calendar .calendar-wrapper .time-wrapper .time-list {max-height: 300px; margin-top: 10px;}
+
+	.content-calendar .table-content {max-height: calc(100vh - 650px); width: 800px;}
+
+	.Calendar__monthSelectorAnimationWrapper, .Calendar__yearSelectorAnimationWrapper {height: auto;}
+}
+

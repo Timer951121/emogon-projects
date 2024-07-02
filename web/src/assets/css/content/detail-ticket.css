@@ -1,0 +1,62 @@
+
+.content-detail-message {display: flex;}
+.content-detail-message .left-chat {flex: 1; height: 100%; display: flex; flex-direction: column; border-right: solid 2px #D9D9D9;}
+.content-detail-message .right-info {width: 300px; height: 100%;}
+
+.content-detail-message .left-chat>div {padding-right: 20px;}
+.content-detail-message .left-chat .chat-wrapper {flex: 1;}
+.content-detail-message .left-chat .input-wrapper {height: 210px; margin-top: 20px; position: relative;}
+.content-detail-message .left-chat .attach-wrapper {height: 80px;}
+
+.content-detail-message .left-chat .input-wrapper .select-image {position: absolute; right: 31px; top: 4px; width: 40px; height: 40px; cursor: pointer; z-index: 2;}
+.content-detail-message .left-chat .input-wrapper .select-image img {width: 70%;}
+.content-detail-message input[type="file"] { display: none; }
+
+.content-detail-message .left-chat .chat-wrapper .message-item {background-color: #0000001A; width: calc(100% - 120px); margin-left: 100px; margin-top: 15px; padding: 10px; position: relative;}
+.content-detail-message .left-chat .chat-wrapper .message-item.client {background-color: #F4BFBB; margin-left: 20px; margin-right: 80px;}
+.content-detail-message .left-chat .chat-wrapper .message-item .chat-tri {position: absolute; top: 0; width: 15px;}
+.content-detail-message .left-chat .chat-wrapper .message-item.client .chat-tri {left: -15px;}
+.content-detail-message .left-chat .chat-wrapper .message-item.me .chat-tri {right: -15px; opacity: 0.1;}
+.content-detail-message .left-chat .chat-wrapper .message-item.me.other-emp {background-color: #00000033;}
+.content-detail-message .left-chat .chat-wrapper .message-item.me.other-emp .chat-tri {opacity: 0.2;}
+
+.content-detail-message .left-chat .chat-wrapper .message-item .message-top { display: flex; margin-bottom: 10px; position: relative;}
+.content-detail-message .left-chat .chat-wrapper .message-item .message-top .sender { flex: 1;  font-weight: 700;}
+.content-detail-message .left-chat .chat-wrapper .message-item .message-top .time { font-weight: 700;}
+.content-detail-message .left-chat .chat-wrapper .message-item .message-text {margin: 5px 0px;}
+.content-detail-message .left-chat .chat-wrapper .message-item .attach-row {display: flex; flex-direction: column; align-items: end;}
+.content-detail-message .left-chat .chat-wrapper .message-item .attach-image {max-width: 100%; max-height: 200px; cursor: pointer;}
+.content-detail-message .left-chat .chat-wrapper .message-item .attach-row .attach-item {border: solid 1px #F3E3A7; padding: 8px 10px;}
+.content-detail-message .left-chat .chat-wrapper .message-item .attach-row .attach-item img {width: 16px; margin-right: 10px;}
+.content-detail-message .left-chat .chat-wrapper .message-item .setting-buttons {display: flex; justify-content: flex-end; align-items: center; margin-top: 7px; padding-right: 10px;}
+.content-detail-message .left-chat .chat-wrapper .message-item .setting-buttons .btn-item {cursor: pointer; margin-left: 7px;}
+.content-detail-message .left-chat .chat-wrapper .message-item .setting-buttons .note-btn {display: flex; padding: 6px 12px; border: solid 1px #00000033; margin-right: 7px;}
+.content-detail-message .left-chat .chat-wrapper .message-item .setting-buttons .note-btn label {margin-left: 7px; cursor: pointer;}
+/* .content-detail-message .left-chat .chat-wrapper .message-item .edit-icon {position: absolute; bottom: 10px; right: 10px; width: 20px; height: 20px;} */
+
+.content-detail-message .left-chat .chat-wrapper .message-item .note-wrapper {padding: 10px; background-color: #F3E3A7;}
+.content-detail-message .left-chat .chat-wrapper .message-item .note-title {display: flex;}
+.content-detail-message .left-chat .chat-wrapper .message-item .note-title .label {flex: 1; font-weight: 700;}
+.content-detail-message .left-chat .chat-wrapper .message-item .note-title .icon {margin-left: 10px; cursor: pointer;}
+
+.content-detail-message .left-chat .footer {display: flex; align-items: center; margin-top: 15px;}
+.content-detail-message .left-chat .footer .attach-wrapper {flex: 1; display: flex;}
+.content-detail-message .left-chat .attach-wrapper .label {margin-top: 6px;}
+.content-detail-message .left-chat .attach-wrapper .attach-content {margin-left: 15px;}
+.content-detail-message .left-chat .attach-wrapper .attach-content .attach-item {display: flex; margin: 5px 0px; align-items: center;}
+.content-detail-message .left-chat .attach-wrapper .attach-content .attach-item .attach-name {width: 220px;}
+.content-detail-message .left-chat .footer .button {margin-left: 15px;}
+
+.content-detail-message .info-wrapper {padding: 20px; border-bottom: solid 1px #D9D9D9;}
+.content-detail-message .info-wrapper .info-item {display: flex; align-items: center; margin: 5px 0px;}
+.content-detail-message .info-wrapper .info-item .label {width: 110px;}
+.content-detail-message .info-wrapper .info-item .value {flex: 1;}
+.content-detail-message .info-wrapper .info-item .icons .icon {margin: 0px 6px; width: 27px; height: 27px;}
+.content-detail-message .buttons {padding: 20px;}
+.content-detail-message .buttons .button {margin: 10px 0px;}
+.content-detail-message .btn-ticket-delete {margin-left: calc(100% - 50px); margin-top: 5px; cursor: pointer; transition: all 0.3s;}
+.content-detail-message .btn-ticket-delete:hover {transform: scale(1.2);}
+
+@media screen and (max-width: 1200px) {
+	.content-detail-message .right-info { width: 250px; }
+}

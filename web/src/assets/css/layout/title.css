@@ -1,0 +1,9 @@
+
+.title-wrapper {margin: 20px; margin-bottom: 5px;}
+.title-wrapper .icon {height: 40px; width: 40px; margin-right: 20px;}
+.title-wrapper .label {font-size: 20px;}
+.title-wrapper .center-space {flex: 1;}
+.title-wrapper .button-filter {margin-left: 12px;}
+
+.title-wrapper.profile-title .icon {cursor: pointer;}
+.title-wrapper.profile-title .label {cursor: pointer;}

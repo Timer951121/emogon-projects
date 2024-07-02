@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "605626815686",
+    "project_id": "enerq-c4027",
+    "storage_bucket": "enerq-c4027.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605626815686:android:efb977728a4c1db137f3c7",
+        "android_client_info": {
+          "package_name": "com.enerqproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605626815686-sgoin1b1b5ldh8i131l7rg6bojut98di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmPW89jfie-6IaASMDQmi3Hp9OhAb0Ats"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605626815686-sgoin1b1b5ldh8i131l7rg6bojut98di.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

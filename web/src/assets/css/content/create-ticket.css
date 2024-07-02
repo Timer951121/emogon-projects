@@ -1,0 +1,19 @@
+
+.content-ticket-create .input-wrapper {margin: 50px 0px;}
+.content-ticket-create .input-wrapper .input-item {display: flex; align-items: center; margin: 15px 0px;}
+.content-ticket-create .input-wrapper .input-item .input-label {width: 120px;}
+.content-ticket-create .input-wrapper .input-item select {width: 320px;}
+.content-ticket-create .input-wrapper .input-item input {width: 288px;}
+.content-ticket-create .input-wrapper .system-icons {display: flex; align-items: center;}
+.content-ticket-create .input-wrapper .system-icons .icon {margin: 0px 10px;}
+
+.content-ticket-create .input-wrapper .footer {margin-left: 120px; width: 700px; display: flex;}
+.content-ticket-create .input-wrapper .footer .files {flex: 1;}
+.content-ticket-create .input-wrapper .footer .files .file-item {display: flex; align-items: center; margin: 10px 0px;}
+.content-ticket-create .input-wrapper .footer .files .file-item label {width: 200px; color: #D9271C;}
+.content-ticket-create .input-wrapper .footer .files .file-item .icon {width: 12px; height: 12px; cursor: pointer;}
+
+@media screen and (max-width: 1200px) {
+	.content-ticket-create .input-wrapper {margin: 20px 0px;}
+	.content-ticket-create .input-wrapper .footer {width: calc(100vw - 350px);}
+}
